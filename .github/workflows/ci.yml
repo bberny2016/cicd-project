@@ -24,7 +24,7 @@ jobs:
           pip install pytest
 
       - name: Run PyTest
-        run: pytest
+        run: pytest -vv
 
   docker:
     runs-on: ubuntu-latest
